@@ -14,7 +14,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, MinMaxScaler, RobustScaler, StandardScaler
 
 
-st.set_page_config(page_title="Student Risk Intelligence Lab", layout="wide")
+st.set_page_config(page_title="Data Minning & Dataset Test Labs", layout="wide")
 
 
 def create_sample_data():
@@ -382,9 +382,9 @@ sample_df = create_sample_data()
 if uploaded is not None:
     sample_df = pd.read_csv(uploaded)
 
-st.markdown('<div class="section-header">Student Risk Intelligence Lab</div>', unsafe_allow_html=True)
+st.markdown('<div class="section-header">Data Minning &amp; Dataset Test Labs</div>', unsafe_allow_html=True)
 st.markdown(
-    '<div class="section-subtitle">A research-oriented learning analytics environment for exploring patterns, preprocessing signals, and comparing predictive models.</div>',
+    '<div class="section-subtitle">Developer: Amarul Roziqin</div>',
     unsafe_allow_html=True,
 )
 
